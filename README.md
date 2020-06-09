@@ -73,7 +73,7 @@ POST http://localhost:3000/api/v1/users
 		"email": "sample@example.com",
 		"name": "sample name",
 		"first_name": "James",
-        "last_name": "Bond",
+    "last_name": "Bond",
 		"password": "password",
 		"tag_list": "user"
 	}
