@@ -69,14 +69,14 @@ POST http://localhost:3000/api/v1/users
 
 ```json
 {
-	"user": {
-		"email": "sample@example.com",
-		"name": "sample name",
-		"first_name": "James",
-    "last_name": "Bond",
-		"password": "password",
-		"tag_list": "user"
-	}
+  "user":{
+	  "email": "sample@example.com",
+	  "name": "sample name",
+	  "first_name": "James",
+	  "last_name": "Bond",
+	  "password": "password",
+	  "tag_list": "user"
+  }
 }
 ```
 * For update user
