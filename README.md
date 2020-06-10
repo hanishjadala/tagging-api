@@ -81,17 +81,13 @@ POST http://localhost:3000/api/v1/users
 ```
 * For update user
 ```http
-PATCH http://localhost:3000/api/v1/users/:id
+PATCH http://localhost:3000/api/v1/tusers/:id
 ```
-* To disable the user add is_active to user object
+* To disable the user just hit the with no parameters user will be disabled and enable again
 ```http
-PATCH http://localhost:3000/api/v1/users/2/disable_user
+PATCH http://localhost:3000/api/v1/users/:id/disable_user
 ```
-```json
-{
-	"user": {"is_active": false}
-}
-```
+
 * To delete the user
 ```http
 DELETE http://localhost:3000/api/v1/tags/:id
